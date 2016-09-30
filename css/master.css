@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    min-width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Home page*/
+
+header {
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.top-nav {
+  display: none;
+  float: left;
+}
+
+.top-nav input {
+  width: 100%;
+  padding-left: 4%;
+}
+
+.main-nav {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-nav ul{
+  display: inline-block;
+  padding-top: 14px;
+  color: #333;
+}
+.main-nav li {
+  float: left;
+  margin-bottom: 10px;
+  border-right: solid 1px black;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.main-nav li:last-child {
+  border-right: none;
+}
+
+.main-nav a:hover {
+font-weight: 800;
+}
+/*
+.slider {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.slider img {
+  width: 100%;
+  width: 140%;
+  position: relative;
+  margin-left: -137px;
+  margin-top: -41px;
+}
+*/
+section {
+  overflow: hidden;
+}
+h1 {
+  border-bottom: solid 1px grey;
+  color: #343434;
+  padding: 2% 1% 1% 1%;
+  margin: 0 1%;
+}
+
+/*--------Featured-designers---------------------------------*/
+
+.destacados {
+  margin-top: 5%;
+  position: relative;
+}
+#ftd-dsg img {
+  width: 100%;
+  transition: all 400ms ease;
+}
+.destacados img:hover {
+  transition: all 400ms ease;
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+  -moz-filter: brightness(130%);
+}
+.artist-name {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 17%;
+  width: 100%;
+  transition: all 400ms ease;
+}
+
+.artist-name:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 400ms ease;
+}
+
+.artist-name h2 {
+  color: #FFF;
+  margin: 0;
+  padding: 5%;
+}
+
+.art-dos {
+  font-size: 55%;
+  font-weight: 100;
+}
+
+.btn_conocelo {
+  width: 100%;
+  background-color: rgba(234,205,177, 1);
+  text-align: center;
+  transition: all 400ms ease;
+}
+.btn_conocelo:hover {
+  background-color: rgb(219, 169, 130);
+  transition: all 400ms ease;
+}
+
+.btn_conocelo a {
+  text-decoration: none;
+  color: #232323;
+  font-size: 20px;
+  display: block;
+  line-height: 100%;
+  padding: 5% 0;
+}
+
+/*-----------------------------Formularios----------------------*/
+form {
+  max-width: 560px;
+  margin: 20px auto;
+}
+h1.sign-in {
+  font-weight: 100;
+}
+
+input.boxform {
+  border: solid 0.5px black;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 5%;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.boxform-text {
+  border: solid 1px black;
+  width: 100%;
+  margin-bottom: 5%;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+input.check {
+  width: auto;
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: middle;
+}
+
+button.submit {
+  font-size: 15px;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background-color: #FFF;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+/*-------------Mi cuenta -------------------------------------*/
+
+.ingresar {
+  font-size: 15px;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background-color: #FFF;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+/*------------- FAQs Preguntas Frecuentes --------------------*/
+
+#faqslist {
+  margin-top: 20px;
+}
+
+#comprar, #envios, #tiempo, #cambios, #pago {
+  display: none;
+}
+
+.faqs h1 {
+  font-weight: 100;
+}
+.faqs ul {
+  padding: 0;
+  list-style-type: none;
+}
+.faqs a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgba(153, 59, 0, 0.6);
+}
+
+/*-------------------------Footer*------------------------------*/
+footer {
+  text-align: center;
+  margin-top: 25px;
+  border-top: solid 1px #000;
+  padding-top: 25px;
+}
+
+.logo2 {
+  height: 50px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer li a:hover {
+  font-weight: 800;
+}
+
+.footer1, .footer2, .footer3 {
+  margin-bottom: 20px;
+}
+
+.icono-social {
+  border-radius: 100%;
+  width: 60px;
+  margin: 0 20px;
+  transition: all 200ms ease;
+}
+.icono-social:hover {
+  transition: all 400ms ease;
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+  -moz-filter: brightness(110%);
+}
+
+
+/*---------------------------------------------------------*/
+/*--------------Media-Queries------------------------------*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+@media (min-width: 550px) and (max-width: 959px) {
+
+  header {
+    text-align: left;
+    height: 150px;
+  }
+
+  #cuenta {
+    text-align: center;
+  }
+
+  .logo {
+    margin-left: 15%;
+  }
+
+  .top-nav {
+    display: block;
+    float: right;
+    width: 25%;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  .top-nav input {
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .main-nav {
+    text-align: left;
+  }
+
+  .main-nav ul {
+    padding-left: 5%;
+  }
+/*
+  .slider {
+    height: 350px;
+  }
+*/
+  .ftd-dsn {
+    overflow: hidden;
+  }
+
+  .destacados {
+    width: 45%;
+    float: left;
+  }
+
+  .destacados:nth-child(2n) {
+    margin-right: 10%;
+  }
+}
+/*----------------------------------------------------------*/
+@media (min-width: 960px) {
+    body {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: left;
+      height: 150px;
+    }
+
+    #cuenta {
+      text-align: center;
+    }
+
+    .logo {
+      margin-left: 15%;
+    }
+
+    .top-nav {
+      display: block;
+      float: right;
+      width: 25%;
+      font-size: 12px;
+      margin-top: 3%;
+    }
+    .top-nav input {
+      margin-bottom: 20px;
+      border: solid 1px #000;
+      border-radius: 5px;
+      height: 30px;
+    }
+
+    .main-nav {
+      text-align: left;
+    }
+    .main-nav ul {
+      padding-left: 5%;
+    }
+/*
+    .slider {
+        height: 400px;
+      }
+*/
+      .ftd-dsn {
+        overflow: hidden;
+      }
+
+    .destacados {
+      width: 30%;
+      float: left;
+      margin-right: 5%;
+    }
+
+    .destacados:nth-child(3n-2) {
+      margin-right: 0;
+    }
+
+  }
+
+/*
+@media (min-width: 1200px) {
+
+
+    .slider {
+      height: 500px;
+    }
+
+    .destacados {
+      width: 21%;
+      float: left;
+      margin-right: 5.33%;
+    }
+
+    .destacados:nth-child(4n+1) {
+      margin-right: 0;
+    }
+
+}
+*/
