@@ -1,0 +1,5 @@
+ErrorDocument 404 /web_v10/index.php
+ErrorDocument 400 /400.html
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 500 /500.html

@@ -11,13 +11,13 @@
 
 
       <h1>Ingresar a mi cuenta</h1>
-      <form class="user" action="" method="post">
+      <form class="user" name="login" action="" method="post">
       <fieldset class="user-form">
           <label> E-mail: <input type="email" name="email" required="" class="boxform"></label>
           <br>
           <label> Contraseña <input type="password" name="password" required="" class="boxform"></label>
           <br>
-          <button type="submit" name="miCuenta" class="ingresar">Ingresar</button>
+          <button type="submit" name="btnLogin" class="submit">Ingresar</button>
       </fieldset>
       </form>
     <?php require('footer.php'); ?>
