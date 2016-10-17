@@ -195,6 +195,10 @@ button.submit {
   padding-top: 4%;
   padding-bottom: 4%;
 }
+#error1, #error2, #error3, #error4, #error5 {
+  display:none;
+  color: #ff0000;
+}
 
 /*-------------Mi cuenta -------------------------------------*/
 
